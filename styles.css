@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'CustomFont', Arial, sans-serif; /* Use custom font as default */
+    font-family: Arial, sans-serif; /* Fallback fonts for the body */
 }
 
 /* Header Styles */
@@ -19,14 +19,10 @@ header {
     align-items: center;
 }
 
-/* Define @font-face rule */
-@font-face {
-    font-family: 'CustomFont'; /* Name to refer to the font */
-    src: url('custom-font.otf') format('opentype'); /* Path to your font file */
-}
-
+/* Apply Google Font to Clan Name */
 .clan-name {
-    font-family: 'CustomFont'; /* Use the imported font for clan name */
+    font-family: 'Noto Serif JP', serif; /* Use Noto Serif JP for clan name */
+    font-weight: 600; /* Semibold (600) weight */
 }
 
 nav ul {
