@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'CustomFont', Arial, sans-serif; /* Use custom font as default */
 }
 
 /* Header Styles */
@@ -26,7 +26,7 @@ header {
 }
 
 .clan-name {
-    font-family: 'CustomFont', Arial, sans-serif; /* Reemplaza 'CustomFont' con el nombre de tu fuente personalizada */
+    font-family: 'CustomFont'; /* Use the imported font for clan name */
 }
 
 nav ul {
