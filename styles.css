@@ -49,6 +49,10 @@ main {
     margin-bottom: 15px;
 }
 
+.join-section {
+    margin-top: 10px;
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;
