@@ -19,6 +19,12 @@ header {
     align-items: center;
 }
 
+/* Define @font-face rule */
+@font-face {
+    font-family: 'CustomFont'; /* Name to refer to the font */
+    src: url('custom-font.otf') format('opentype'); /* Path to your font file */
+}
+
 .clan-name {
     font-family: 'CustomFont', Arial, sans-serif; /* Reemplaza 'CustomFont' con el nombre de tu fuente personalizada */
 }
