@@ -8,9 +8,9 @@
 
 body {
     font-family: Arial, sans-serif; /* Fallback fonts for the body */
-    background-color: #FFA500;
+    background-color: #141414;
     color: #FFFFFF;
-    text-shadow: 0px 0px 2px #000;
+    text-shadow: 0px 0px 2px #808080;
 }
  
 span {
@@ -31,7 +31,7 @@ header {
 .clan-name {
     font-family: 'Noto Serif JP', serif; /* Use Noto Serif JP for clan name */
     font-weight: 600; /* Semibold (600) weight */
-    text-shadow: 0px 0px 2.5px #000;
+    text-shadow: 0px 0px 2.5px #d3d3d3;
 }
 
 nav ul {
