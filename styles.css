@@ -45,8 +45,8 @@ main {
 }
 
 .about-section,
-.members-section {
-    margin-bottom: 30px;
+.members-section, .join-section {
+    margin-bottom: 15px;
 }
 
 /* Footer Styles */
