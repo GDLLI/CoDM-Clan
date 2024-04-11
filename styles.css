@@ -9,6 +9,10 @@ body {
     font-family: Arial, sans-serif; /* Fallback fonts for the body */
 }
 
+span {
+    font-weight: bold;
+}
+
 /* Header Styles */
 header {
     background-color: #333;
